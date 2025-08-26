@@ -1,14 +1,14 @@
-# nmap
+# Nmap
 This is a note for learning or recall the memory of nmap
 --------------------------------------------------------------------
 # Intro
 
 ---
-# usage
+# Usage
 - list host
 - multiple scanning method
 ---
-# command
+# Command
 ```
 nmap ip/subnet or sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts 
 (use sudo to get a faster result) 
@@ -25,7 +25,7 @@ can replace by -oG  -->  save as Greppable
                -oA  -->  save as oN,oG,oX
 ```
 ---
-### to make it fast
+### Make it fast
 ```
 If you want to speed it up what you can do is 
 sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts -Pn -n
@@ -81,7 +81,7 @@ ARP requests
 SYN and ACK requests
 ```
 ---
-# source
+# Source
 [Cyber Ryan | Cyber Security - Nmap for Beginners: A Complete Guide](https://youtu.be/z14HC3bJQpQ?si=d8nacpCGvDXhD14H)
 ---
 
