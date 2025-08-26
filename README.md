@@ -67,7 +67,7 @@ sudo nmap -O 192.168.1.101
 -O --> to find out which operating system is running. such as Linux.
 ```
 ---
-#Nmap Scripting
+# Nmap Scripting
 ```
 sudo nmap -p[discovered,ports] -sC ip
 
@@ -83,3 +83,7 @@ ARP requests
 SYN and ACK requests
 ```
 ---
+# source
+[Cyber Ryan | Cyber Security - Nmap for Beginners: A Complete Guide](https://youtu.be/z14HC3bJQpQ?si=d8nacpCGvDXhD14H)
+---
+
