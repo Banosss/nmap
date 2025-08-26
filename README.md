@@ -9,7 +9,7 @@ This is a note for learning or recall the memory of nmap
 - multiple scanning method
 --------------------------------------------------------------------
 # command
-nmap ip/subnet or sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts
+nmap ip/subnet or sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts <br>
 (use sudo to get a faster result)
 this command will list out all the device in the specific ip address
                -sn  -->  disable port scanning 
