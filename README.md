@@ -55,7 +55,8 @@ sudo nmap -O 192.168.1.101
 --------------------------------------------------------------------
 Nmap Scripting
 sudo nmap -p[discovered,ports] -sC ip
-******** to be updated
+
+to be updated
 --------------------------------------------------------------------
 nmap -p- 192.168.0.1
 this command will list out all the port 
