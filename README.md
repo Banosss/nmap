@@ -10,16 +10,14 @@ This is a note for learning or recall the memory of nmap
 ---
 # command
 ```
-nmap ip/subnet or sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts <br>
+nmap ip/subnet or sudo nmap 192.168.1.0/24 -sn -oN scans/alive-hosts 
 (use sudo to get a faster result) 
 this command will list out all the device in the specific ip address
                -sn  -->  disable port scanning 
 can replace by -sS  -->  SYN Scan
                -sT  -->  Full TCP Scan
                -sA  -->  ACK Scan
-```
----
-```
+
 scans/alive-hosts  -->  save the nmap file in ./scans/alive-hosts
                -oN  -->  to save the file as the default formet
 can replace by -oG  -->  save as Greppable
