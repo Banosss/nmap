@@ -2,6 +2,17 @@
 This is a note for learning or recall the memory of nmap
 --------------------------------------------------------------------
 # Intro
+Nmap (Network Mapper) is an open-source network discovery and security auditing tool. It is widely used by penetration testers, system administrators, and security analysts to:
+
+Discover live hosts on a network using techniques like ICMP echo (ping), ARP requests, and TCP/ACK probes.
+
+Identify open ports and the services running on them through various scanning methods (SYN, TCP, UDP, ACK).
+
+Perform service and OS fingerprinting (-sV, -O) to determine software versions and operating systems.
+
+Automate vulnerability detection using the Nmap Scripting Engine (NSE).
+
+Nmap is highly flexible—it supports performance tuning (e.g., --min-rate), multiple output formats (-oN, -oG, -oX, -oA), and can be adapted for both quick host discovery and deep, full-port scans. This note serves as a quick-reference guide for the most common Nmap workflows, from scanning a local subnet to enumerating services on a single target.
 
 ---
 # Usage
